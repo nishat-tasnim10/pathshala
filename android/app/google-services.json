@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286626353466",
+    "project_id": "pathshala-5699d",
+    "storage_bucket": "pathshala-5699d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286626353466:android:1020db9324ac2a96cb0003",
+        "android_client_info": {
+          "package_name": "com.example.pathshala"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdv0t5NygmSLCqd0Pelu0z5PxmkR0E6-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
