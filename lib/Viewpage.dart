@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prachi/chesmistry.dart';
+import 'chesmistry.dart';
 import 'physics.dart';
 import 'biology.dart';
 import 'math.dart';
@@ -141,7 +141,7 @@ class _ViewPageState extends State<ViewPage> with TickerProviderStateMixin {
               child: ScaleTransition(
                 scale: _bounceAnimation,
                 child: Image.asset(
-                  "Assets/ani.png",
+                  "assets/images/ani.png",
                   height: 120,
                 ),
               ),
@@ -192,20 +192,20 @@ class _ViewPageState extends State<ViewPage> with TickerProviderStateMixin {
               top: 520,
               left: 45,
               child: subjectButton(
-                  "Assets/Biology.png", "Biology", const biology()),
+                  "assets/images/Biology.png", "Biology", const biology()),
             ),
 
             Positioned(
               top: 520,
               left: 240,
               child:
-              subjectButton("Assets/Math.png", "Math", const MathPage()),
+              subjectButton("assets/images/Math.png", "Math", const MathPage()),
             ),
 
             Positioned(
               top: 700,
               left: 45,
-              child: subjectButton("Assets/7614875.png",
+              child: subjectButton("assets/images/7614875.png",
                   "Chemistry", const ChemistryPage()),
             ),
 
@@ -213,7 +213,7 @@ class _ViewPageState extends State<ViewPage> with TickerProviderStateMixin {
               top: 700,
               left: 240,
               child: subjectButton(
-                  "Assets/physics.png", "Physics", const Physics()),
+                  "assets/images/physics.png", "Physics", const Physics()),
             ),
           ],
         ),
