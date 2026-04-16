@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:pathsala/quiz.dart';
+import 'quiz.dart';
 import 'overallprogresscard.dart';
 
 class ProgressTrackerScreen extends StatelessWidget {
